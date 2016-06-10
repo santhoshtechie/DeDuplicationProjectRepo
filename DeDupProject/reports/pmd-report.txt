@@ -1,0 +1,105 @@
+src/com/stubs/DeDup.java:22:	Logger should be defined private static final and have the correct class
+src/com/stubs/DeDup.java:22:	fieldCommentRequirement Required
+src/com/stubs/DeDup.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/stubs/DeDup.java:25:	fieldCommentRequirement Required
+src/com/stubs/DeDup.java:33:	Comment is too large: Line too long
+src/com/stubs/DeDup.java:37:	Parameter 'args' is not assigned and could be declared final
+src/com/stubs/DeDup.java:40:	Local variable 'dupClassInstance' could be declared final
+src/com/stubs/DeDup.java:44:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/stubs/DeDup.java:46:	Avoid printStackTrace(); use a logger call instead.
+src/com/stubs/DeDup.java:59:	Avoid excessively long variable names like processedStartTime
+src/com/stubs/DeDup.java:62:	Comment is too large: Line too long
+src/com/stubs/DeDup.java:67:	Comment is too large: Line too long
+src/com/stubs/DeDup.java:69:	Comment is too large: Line too long
+src/com/stubs/DeDup.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/com/stubs/DeDup.java:73:	There is log block not surrounded by if
+src/com/stubs/DeDup.java:77:	Local variable 'processedEndTime' could be declared final
+src/com/stubs/DeDup.java:78:	Found 'DU'-anomaly for variable 'totalProcessTime' (lines '78'-'82').
+src/com/stubs/DeDup.java:80:	The String literal " milliseconds" appears 4 times in this file; the first occurrence is on line 80
+src/com/stubs/DeDup.java:80:	There is log block not surrounded by if
+src/com/stubs/DeDup.java:85:	Comment is too large: Too many lines
+src/com/stubs/DeDup.java:100:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/com/stubs/DeDup.java:105:	Local variable 'deDupSet' could be declared final
+src/com/stubs/DeDup.java:109:	Potential violation of Law of Demeter (method chain calls)
+src/com/stubs/DeDup.java:111:	Avoid catching NullPointerException; consider removing the cause of the NPE.
+src/com/stubs/DeDup.java:111:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/stubs/DeDup.java:114:	Avoid printStackTrace(); use a logger call instead.
+src/com/stubs/DeDup.java:115:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/stubs/DeDup.java:118:	Avoid printStackTrace(); use a logger call instead.
+src/com/stubs/DeDup.java:121:	Local variable 'processEndTime' could be declared final
+src/com/stubs/DeDup.java:122:	Found 'DU'-anomaly for variable 'totalProcessTime' (lines '122'-'128').
+src/com/stubs/DeDup.java:124:	There is log block not surrounded by if
+src/com/stubs/DeDup.java:130:	Comment is too large: Line too long
+src/com/stubs/DeDup.java:130:	Comment is too large: Too many lines
+src/com/stubs/DeDup.java:133:	Comment is too large: Line too long
+src/com/stubs/DeDup.java:136:	Comment is too large: Line too long
+src/com/stubs/DeDup.java:146:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/com/stubs/DeDup.java:147:	Local variable 'processStartTime' could be declared final
+src/com/stubs/DeDup.java:151:	Local variable 'list' could be declared final
+src/com/stubs/DeDup.java:156:	Comment is too large: Line too long
+src/com/stubs/DeDup.java:157:	Potential violation of Law of Demeter (method chain calls)
+src/com/stubs/DeDup.java:158:	Potential violation of Law of Demeter (method chain calls)
+src/com/stubs/DeDup.java:161:	Avoid catching NullPointerException; consider removing the cause of the NPE.
+src/com/stubs/DeDup.java:161:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/stubs/DeDup.java:164:	Avoid printStackTrace(); use a logger call instead.
+src/com/stubs/DeDup.java:165:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/stubs/DeDup.java:168:	Avoid printStackTrace(); use a logger call instead.
+src/com/stubs/DeDup.java:171:	Local variable 'processEndTime' could be declared final
+src/com/stubs/DeDup.java:172:	Found 'DU'-anomaly for variable 'totalProcessTime' (lines '172'-'178').
+src/com/stubs/DeDup.java:174:	There is log block not surrounded by if
+src/com/stubs/DeDup.java:180:	Comment is too large: Too many lines
+src/com/stubs/DeDup.java:186:	Comment is too large: Line too long
+src/com/stubs/DeDup.java:194:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/com/stubs/DeDup.java:195:	Local variable 'processStartTime' could be declared final
+src/com/stubs/DeDup.java:199:	Local variable 'sortSet' could be declared final
+src/com/stubs/DeDup.java:203:	Potential violation of Law of Demeter (method chain calls)
+src/com/stubs/DeDup.java:205:	Avoid catching NullPointerException; consider removing the cause of the NPE.
+src/com/stubs/DeDup.java:205:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/stubs/DeDup.java:208:	Avoid printStackTrace(); use a logger call instead.
+src/com/stubs/DeDup.java:209:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/stubs/DeDup.java:212:	Avoid printStackTrace(); use a logger call instead.
+src/com/stubs/DeDup.java:215:	Local variable 'processEndTime' could be declared final
+src/com/stubs/DeDup.java:216:	Found 'DU'-anomaly for variable 'totalProcessTime' (lines '216'-'222').
+src/com/stubs/DeDup.java:218:	There is log block not surrounded by if
+src/com/stubs/DeDupTest.java:16:	Each class should declare at least one constructor
+src/com/stubs/DeDupTest.java:17:	Logger should be defined private static final and have the correct class
+src/com/stubs/DeDupTest.java:17:	fieldCommentRequirement Required
+src/com/stubs/DeDupTest.java:19:	Comment is too large: Line too long
+src/com/stubs/DeDupTest.java:25:	Local variable 'inputArray' could be declared final
+src/com/stubs/DeDupTest.java:26:	Local variable 'expectedArray' could be declared final
+src/com/stubs/DeDupTest.java:27:	Local variable 'deDuplicateObject' could be declared final
+src/com/stubs/DeDupTest.java:28:	Local variable 'returnArrayObj' could be declared final
+src/com/stubs/DeDupTest.java:28:	Potential violation of Law of Demeter (object not created locally)
+src/com/stubs/DeDupTest.java:29:	Found 'DD'-anomaly for variable 'returnArray' (lines '29'-'31').
+src/com/stubs/DeDupTest.java:31:	Found 'DD'-anomaly for variable 'returnArray' (lines '31'-'31').
+src/com/stubs/DeDupTest.java:31:	Potential violation of Law of Demeter (method chain calls)
+src/com/stubs/DeDupTest.java:31:	Potential violation of Law of Demeter (method chain calls)
+src/com/stubs/DeDupTest.java:31:	Potential violation of Law of Demeter (method chain calls)
+src/com/stubs/DeDupTest.java:31:	Potential violation of Law of Demeter (method chain calls)
+src/com/stubs/DeDupTest.java:33:	Potential violation of Law of Demeter (method chain calls)
+src/com/stubs/DeDupTest.java:42:	Comment is too large: Line too long
+src/com/stubs/DeDupTest.java:48:	Local variable 'inputArray' could be declared final
+src/com/stubs/DeDupTest.java:49:	Local variable 'expectedArray' could be declared final
+src/com/stubs/DeDupTest.java:50:	Local variable 'deDuplicateObject' could be declared final
+src/com/stubs/DeDupTest.java:51:	Local variable 'returnArrayObj' could be declared final
+src/com/stubs/DeDupTest.java:51:	Potential violation of Law of Demeter (object not created locally)
+src/com/stubs/DeDupTest.java:52:	Found 'DD'-anomaly for variable 'returnArray' (lines '52'-'54').
+src/com/stubs/DeDupTest.java:54:	Found 'DD'-anomaly for variable 'returnArray' (lines '54'-'54').
+src/com/stubs/DeDupTest.java:54:	Potential violation of Law of Demeter (method chain calls)
+src/com/stubs/DeDupTest.java:54:	Potential violation of Law of Demeter (method chain calls)
+src/com/stubs/DeDupTest.java:54:	Potential violation of Law of Demeter (method chain calls)
+src/com/stubs/DeDupTest.java:54:	Potential violation of Law of Demeter (method chain calls)
+src/com/stubs/DeDupTest.java:56:	Potential violation of Law of Demeter (method chain calls)
+src/com/stubs/DeDupTest.java:65:	Comment is too large: Line too long
+src/com/stubs/DeDupTest.java:71:	Local variable 'inputArray' could be declared final
+src/com/stubs/DeDupTest.java:72:	Local variable 'expectedArray' could be declared final
+src/com/stubs/DeDupTest.java:73:	Local variable 'deDuplicateObject' could be declared final
+src/com/stubs/DeDupTest.java:74:	Local variable 'returnArrayObj' could be declared final
+src/com/stubs/DeDupTest.java:74:	Potential violation of Law of Demeter (object not created locally)
+src/com/stubs/DeDupTest.java:75:	Found 'DD'-anomaly for variable 'returnArray' (lines '75'-'77').
+src/com/stubs/DeDupTest.java:77:	Found 'DD'-anomaly for variable 'returnArray' (lines '77'-'77').
+src/com/stubs/DeDupTest.java:77:	Potential violation of Law of Demeter (method chain calls)
+src/com/stubs/DeDupTest.java:77:	Potential violation of Law of Demeter (method chain calls)
+src/com/stubs/DeDupTest.java:77:	Potential violation of Law of Demeter (method chain calls)
+src/com/stubs/DeDupTest.java:77:	Potential violation of Law of Demeter (method chain calls)
+src/com/stubs/DeDupTest.java:79:	Potential violation of Law of Demeter (method chain calls)

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration debug="false"
+	xmlns:log4j='http://jakarta.apache.org/log4j/'>
+
+	<appender name="fileappender" class="org.apache.log4j.RollingFileAppender">
+	   <param name="maxFileSize" value="1024KB" />
+	   <param name="maxBackupIndex" value="5" />
+	   <param name="Append" value="true" />
+	 <!-- 
+	 Path is set to an application logs folder
+	  -->  
+	   <param name="file" value="${user.home}/Workspace/ApplicationLogs/Application.log" />
+	   <layout class="org.apache.log4j.PatternLayout">
+		<param name="ConversionPattern" 
+			value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n" />
+	   </layout>
+	</appender>
+	<category name = "com.stubs" >
+		<priority value = "INFO" />
+	</category>
+	<root>
+		<level value="ERROR" />
+		<appender-ref ref="fileappender" />
+	</root>
+
+</log4j:configuration>
